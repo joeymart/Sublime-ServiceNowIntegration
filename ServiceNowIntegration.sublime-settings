@@ -1,0 +1,20 @@
+{
+    /*
+    This is the base URL (including protocol: "https://"" or "http://") to connect to your target instance.
+    Example: https://conglomo.service-now.com/
+    */
+    "base_url": "http://localhost:8082/",
+
+    /*
+    The suffix that will be appended to the base_url. The standard REST api is at "api/now/table/", but since
+    ServiceNow supports a variety of API extension points, you may want to customize this, but not likely
+    */
+    "api_suffix": "api/now/table/",
+
+    /*
+    The username that you use to connect to your instance. You will need write access to the 
+    sys_script_include table for this to work.
+    You will be prompted for your password for each new view
+    */
+    "username": "admin"
+}

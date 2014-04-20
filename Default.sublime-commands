@@ -1,0 +1,12 @@
+[
+  {
+    "id": "nowOpenScriptInclude",
+    "caption": "NOW: Open Script Include",
+    "command": "now_open_script_include"
+  },
+  {
+    "id": "nowPushScriptInclude",
+    "caption":  "NOW: Push Script Include",
+    "command": "now_push_script_include"
+  }
+]
